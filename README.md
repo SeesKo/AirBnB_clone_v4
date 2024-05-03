@@ -20,7 +20,7 @@ This is the fourth segment of the AirBnB project at ALX Software Engineering tha
 
 ## Project Requirements
 
-### JavasScript Scripts
+### JavaScript Scripts
 
 - All your files will be interpreted on Chrome (version 57.0).
 - Your code should be `semistandard` compliant with the flag `--global $: semistandard *.js --global $`.
