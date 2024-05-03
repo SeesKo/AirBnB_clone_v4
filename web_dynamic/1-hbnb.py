@@ -9,10 +9,12 @@ from models.place import Place
 
 app = Flask(__name__)
 
+
 @app.teardown_appcontext
 def close_db(error):
     """ Remove the current SQLAlchemy Session """
     storage.close()
+
 
 @app.route('/1-hbnb/', strict_slashes=False)
 def hbnb():
@@ -34,6 +36,7 @@ def hbnb():
         amenities=amenities,
         places=places
     )
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
