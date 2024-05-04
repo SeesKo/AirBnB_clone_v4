@@ -1,6 +1,6 @@
 # 0x06. AirBnB Clone - Web dynamic
 
-This is the fourth segment of the AirBnB project at ALX Software Engineering that will collectively cover fundamental concepts of higher level computer programming. The goal of the AirBnB project is to eventually set up a server that runs a simple replica of the AirBnB Website(HBnB). A command line interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+This is the fourth segment of the AirBnB Clone project that will collectively cover fundamental concepts of higher level computer programming. The goal of the AirBnB Clone project is to eventually set up a server that runs a simple replica of the AirBnB Website (HBnB). A command line interpreter is created in this segment to manage objects for the AirBnB (HBnB) website.
 
 #### Functionalities of this command interpreter:
 * Creates a new object (ex: a new User or a new Place).
