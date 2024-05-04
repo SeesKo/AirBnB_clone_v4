@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <!-- Importing jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- Importing the new JavaScript script with cache_id for cache busting -->
-    <script src="../static/scripts/3-hbnb.js?{{ cache_id }}"></script>
-    <!-- Existing CSS with cache_id -->
+    <!-- Importing the new JavaScript script for this route -->
+    <script src="../static/scripts/4-hbnb.js?{{ cache_id }}"></script>
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?{{ cache_id }}">
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?{{ cache_id }}">
     <link rel="stylesheet" type="text/css" href="../static/styles/3-footer.css?{{ cache_id }}">
@@ -54,11 +52,11 @@
             </ul>
           </div>
         </div>
-        <button type="button">Search</button>
+        <button type="button" id="filter-button">Search</button>
       </section>
       <div class="placesh1"><h1>Places</h1></div>
       <section class="places">
-	      <!-- This is where articles will be added dynamically -->
+        <!-- Articles will be dynamically added here -->
       </section>
     </div>
     <footer>
